@@ -4,13 +4,13 @@ ob_start();
 
 ?>
 
-<h1>News</h1>
-
+<h1>Home</h1>
 
 <?php
 
 $content = ob_get_clean();
 
-include 'app/views/layout.php';
 
+
+include 'app/views/layout.php';
 ?>
